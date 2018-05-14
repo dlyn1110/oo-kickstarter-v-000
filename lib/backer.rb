@@ -9,8 +9,8 @@ attr_reader :name
   end
 
  def back_project(project)
-   puts "Type Error"
-
+  backed_projects << project
+  project.backers << self
 
 
 
