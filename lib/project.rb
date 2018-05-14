@@ -1,6 +1,7 @@
 class Project
 
-  attr_accessor :title, :backersw
+  attr_accessor :title, :backers
+  
 
 
 
